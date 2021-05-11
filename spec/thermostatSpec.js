@@ -79,11 +79,23 @@ describe('Thermostat', () => {
         expect(thermostat.energyUsage()).toEqual('low-usage');
       });
     });
+    
     describe('when the temperature is between 18 and 25 degrees', () => {
       it('it is considered medium-usage', () => {
         expect(thermostat.energyUsage()).toEqual('medium-usage');
       });
     });
+
+    describe('when the temperature is anything else', () => {
+      it('it is considered high-usage', () => {
+        thermostat.powerSavingMode = false;
+        for (let i = 0; i < 6; i++) {
+          thermostat.up();
+        }
+        expect(thermostat.energyUsage()).toEqual('high-usage');
+      });
+    });
+    
   });
   
 });

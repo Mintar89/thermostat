@@ -63,6 +63,7 @@ class Thermostat {
     } else if (this.temperature <= this.HIGH_ENERGY_USAGE_LIMIT) {
       return 'medium-usage';
     }
+    return 'high-usage';
   }
 
 }
