@@ -5,22 +5,29 @@
     <title>Thermostat</title>
   </head>
   <body>
-    <section>
-      <h1>Thermostat</h1>
-      <h1 id="temperature"></h1>
-      <h1>Current temperature: <span id="current-temperature">20</span></h1>
-      <form id="select-city">
-        <input id="current-city" type="text" placeholder="Enter a city"></input>
-        <input type="submit"></input>
-      </form>
-      <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button>
-        power saving mode is <span id="power-saving-status">on</span>
-        <button id="powersaving-on">PSM on</button>
-        <button id="powersaving-off">PSM off</button>
-      </p>
+    <h1>Thermostat</h1>
+      <section class="weather">
+        <h3 class="current-temp">Current Temperature in</h3> 
+        <form id="select-city">
+          <input id="current-city" type="text" placeholder="Enter city"></input>
+          <button id="go">Go</button>
+        </form>
+        <aside>
+          <h3 id="current-temperature"></h3><span>°C</span>
+        </aside>
+      </section>
+    <main class="temperature">
+      <h2 id="temperature"></h2>
+      <div class="circle">°</div>
+      <button id="temperature-up">+</button>
+      <button id="temperature-down">-</button>
+      <button id="temperature-reset">Reset</button>
+    </main>
+    <section class="psm">
+      <h4 class="psm-title">Power Saving Mode:</h4>
+      <h4 id="power-saving-status">On</h4><br><br>
+      <button id="powersaving-on">On</button>
+      <button id="powersaving-off">Off</button>
     </section>
     <script src="src/thermostat.js"></script>
     <script src="src/interface.js"></script>

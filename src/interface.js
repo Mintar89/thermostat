@@ -45,13 +45,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.querySelector('#powersaving-on').addEventListener('click', function() {
       thermostat.switchPowerSavingModeOn();
-      document.querySelector('#power-saving-status').innerText = 'on';
+      document.querySelector('#power-saving-status').innerText = 'On';
       updateTemperature();
     });
   
     document.querySelector('#powersaving-off').addEventListener('click', function() {
       thermostat.switchPowerSavingModeOff();
-      document.querySelector('#power-saving-status').innerText = 'off';
+      document.querySelector('#power-saving-status').innerText = 'Off';
       updateTemperature();
     });
   });

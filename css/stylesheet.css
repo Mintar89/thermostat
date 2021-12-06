@@ -1,12 +1,170 @@
+* {
+  text-align: center;
+  font-family: Arial;
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px auto;
+  font-size: 25px;
+}
+
+* body {
+  background: linear-gradient(110deg, #05A1F4 60%, #87e1fa 60%);
+}
+
 .low-usage {
-    color: green;
-  }
+  color: #38F78A;
+}
   
-  .medium-usage {
-    color: black;
-  }
+.medium-usage {
+  color: white;
+}
   
-  .high-usage {
-    color: red;
-  }
+.high-usage {
+  color:   #F75138
+  ;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  margin-top: 50px;
+}
+
+.weather {
+  margin-left: 500px;
+  color: white;
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.current-temp {
+  margin-left: 55px;
+  font-size: 30px;
+}
+
+input {
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  max-width: 190px;
+  background-color: #e6f7ff;
+  color: #6bb8ff;
+  border-radius: 5px;
+  margin-left: 100px;
+  box-shadow: 4px 4px #fdcd3b;
+  margin-top: 15px;
+}
+
+::placeholder { 
+  color: #6bb8ff;
+  font-size: 30px;
+}
+
+button {
+  background-color: #e6f7ff;
+  color: #6bb8ff;
+  box-shadow: 4px 4px #fdcd3b;
+  border-radius: 5px;
+  position: relative; 
+  height: 40px;
+  width: 50px;
+}
+
+
+h3 {
+  display: inline;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top: -60px;
+  margin-left: 100px;
+  color: white;
+}
+
+#temperature {
+  font-size: 250px;
+  font-weight: 300;
+}
+
+main {
+  margin-top: -120px;
+  margin-right: 600px;
+}
+
+aside {
+  margin-top: 20px;
+}
+
+.circle {
+  position:relative; 
+  left:160px; 
+  top:-260px;
+  font-size: 130px;
+  color: white;
+}
+
+#go {
+  background-color: #e6f7ff;
+  height: 50px;
+  width: 80px;
+}
+
+#temperature-up {
+  top: -150px;
+  left: -20px; 
+}
+
+#temperature-down{
+  top: -150px;
+  left: -15px;
+}
+
+#temperature-reset {
+  top: -150px;
+  width: 105px;
+  left: 10px;
+}
+
+.psm {
+  margin-left: 500px;
+  margin-top: -180px;
+  font-weight: 900;
+}
+
+.psm-title {
+  font-size: 30px;
+  color: white;
+}
+
+#power-saving-status {
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  display: inline;
+  margin-bottom: 40px;
+}
+
+#powersaving-on {
+  width: 60px;
+}
+
+#powersaving-off {
+  width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
