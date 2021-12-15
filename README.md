@@ -1,5 +1,6 @@
 # Thermostat 
-I created this programme as part of a challenge at [Makers Academy](http://www.makersacademy.com). 
+
+A thermostat application to regulate a household's temperature to maintain a cost-effective energy plan. I created this programme as part of a challenge at [Makers Academy](http://www.makersacademy.com). 
 
 The app has been created with JavaScript, CSS and HTML. Test driven using Jasmine.
 
